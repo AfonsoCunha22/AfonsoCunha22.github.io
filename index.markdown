@@ -4,3 +4,23 @@
 
 layout: home
 ---
+
+<h1> Introduction </h1>	
+
+<p>
+Did prostitution reach its peak in 2008? To answer this question, we delve into data collected by the San Francisco Police Department spanning from 2003 to 2017. This dataset encompasses various crime categories, each logged with timestamps and geographical coordinates.
+Focusing specifically on the prostitution category within the years 2004 to 2013, intriguing trends emerge. It appears that the incidence of prostitution-related crimes surged in 2007 and 2008, only to steadily decline thereafter. By 2012, the data reveals the lowest recorded rate of such offenses over the preceding decade.
+In this exploration, we aim to dissect the temporal patterns of prostitution crimes, shedding light on shifts in societal behaviors and law enforcement efforts over the examined timeframe.
+</p>
+
+![image broken :(](/assets/10y_prostitution.png) 
+
+## Example Bokeh visualization:
+<iframe src="/assets/interactive_bokeh_viz.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
