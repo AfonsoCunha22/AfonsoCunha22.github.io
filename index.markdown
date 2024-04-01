@@ -16,6 +16,11 @@ In this exploration, we aim to dissect the temporal patterns of prostitution cri
 ![image broken :(](/assets/10y_prostitution.png) 
 
 ## Example Bokeh visualization:
+
+<p>
+To better comprehend the nature of prostitution-related crimes, let's investigate the weekday distribution of incidents. This analysis aims to unveil how these activities unfold over the course of the week.
+</p>
+
 <iframe src="/assets/interactive_bokeh_viz.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
@@ -24,3 +29,12 @@ In this exploration, we aim to dissect the temporal patterns of prostitution cri
     seamless="seamless"
     frameborder="0">
 </iframe>
+
+<p>
+Based on data provided by the San Francisco Police Department, the visualization illustrates the notable decline in reported incidents of prostitution from 2004 to 2013. Despite common assumptions associating prostitution with weekend activities and nightlife, the data presents a different reality. Surprisingly, the analysis reveals that Wednesday records the highest frequency of reported incidents, followed closely by Thursday and Tuesday.  This observation challenges stereotypes and emphasizes the nature of criminal activities within urban contexts. Rather than aligning with weekend leisure, the peak in reported incidents during 2007-2008 primarily stems from occurrences on weekdays, particularly Wednesday and Tuesday. Notably, the weekend—encompassing Friday, Saturday, and Sunday—maintains a relatively stable crime rate throughout the ten-year period.  
+</p>
+
+
+
+
+
