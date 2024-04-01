@@ -34,7 +34,10 @@ To better comprehend the nature of prostitution-related crimes, let's investigat
 Based on data provided by the San Francisco Police Department, the visualization illustrates the notable decline in reported incidents of prostitution from 2004 to 2013. Despite common assumptions associating prostitution with weekend activities and nightlife, the data presents a different reality. Surprisingly, the analysis reveals that Wednesday records the highest frequency of reported incidents, followed closely by Thursday and Tuesday.  This observation challenges stereotypes and emphasizes the nature of criminal activities within urban contexts. Rather than aligning with weekend leisure, the peak in reported incidents during 2007-2008 primarily stems from occurrences on weekdays, particularly Wednesday and Tuesday. Notably, the weekend—encompassing Friday, Saturday, and Sunday—maintains a relatively stable crime rate throughout the ten-year period.  
 </p>
 
-
+<p>
+Checking Prostitution cases Across San Francisco
+</p>
+<iframe src="/assets/plotly_map.html" width="700" height="500" frameborder="0"></iframe>
 
 
 
