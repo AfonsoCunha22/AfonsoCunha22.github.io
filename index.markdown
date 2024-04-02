@@ -6,7 +6,7 @@ layout: home
 list_title: ' '
 ---
 <h1> Prostitution in San Francisco </h1>
-## Prostitution rates (2003 - 2013)
+## Prostitution rates (2004 - 2013)
 
 <p>
 Why did prostitution reached its peak in 2008 and what influences the San Francisco prostitution crime rate? To answer this question, we look into data collected by the San Francisco Police Department spanning from 2004 to 2013. This dataset displays various crime categories, each logged with timestamps and geographical coordinates.  Focusing specifically on the prostitution category within the years 2004 to 2013, intriguing trends can be witnessed. It appears that the incidents of prostitution-related crimes increased in 2007 and 2008, only to steadily decline thereafter. By 2012, the data reveals the lowest recorded rate of such offenses over the preceding decade.  In this exploration, we aim to overview the patterns of prostitution crimes, shedding light on shifts in societal behaviors and law enforcement efforts over the examined timeframe. 
