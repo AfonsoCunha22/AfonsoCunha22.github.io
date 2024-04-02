@@ -42,10 +42,41 @@ To better comprehend the nature of prostitution-related crimes, let's investigat
 Based on data provided by the San Francisco Police Department, the visualization illustrates the decline in reported incidents of prostitution from 2004 to 2013. Despite common assumptions associating prostitution with weekend activities and nightlife, the data presents a different reality. Surprisingly, the analysis reveals that Wednesday records the highest frequency of reported incidents, followed closely by Thursday and Tuesday.  This observation challenges stereotypes and emphasizes the nature of criminal activities within urban contexts. Rather than aligning with weekend leisure, the peak in reported incidents during 2007-2008 primarily comes from occurrences on weekdays, particularly Wednesday and Tuesday. This also links to previous suggestions that unemployment can lead to more crime cases, as more people need income, and more people are free during daytime weekdays. Notably, the weekend—encompassing Friday, Saturday, and Sunday—maintains a relatively stable crime rate throughout the ten-year period.     
 </p>
 
+# Prostitution Cases in San Francisco
+
 <p>
-Checking Prostitution cases Across San Francisco
+The areas of Tenderloin, Mission, Northern, and Central districts in San Francisco are historically known for their high incidence of various types of crimes, including prostitution. This pattern is not only a reflection of the socio-economic fabric of these neighborhoods but also of the policing and community responses to the issues.
 </p>
+
+
+## Tenderloin
+
+<p>
+The Tenderloin district has long been considered one of the most troubled areas in San Francisco, known for its homelessness, drug trade, and as a hotspot for prostitution. The concentration of affordable housing and social services, alongside a high density of bars and clubs, creates an environment where such activities can flourish. Efforts to revitalize the area have been ongoing, with community organizations working alongside law enforcement to address these complex issues.
+</p>
+
+
+## Mission
+
+<p>
+The Mission district, known for its vibrant cultural and artistic community, also faces challenges related to street-level crimes, including prostitution. Economic disparities and gentrification have contributed to social tensions in the area, affecting the prevalence and visibility of street crimes. Community policing efforts and neighborhood initiatives aim to tackle these problems by fostering a safer and more inclusive environment.
+</p>
+
+
+## Northern and Central
+
+<p>
+The Northern and Central districts, covering areas like Polk Gulch, have seen varied levels of street crime, including prostitution. These areas, particularly near entertainment and nightlife venues, can become focal points for such activities. Police patrols and community vigilance are key strategies in managing these issues, with an emphasis on harm reduction and support for those involved in the sex trade.
+</p>
+
 <iframe src="/assets/plotly_map.html" width="700" height="500" frameborder="0"></iframe>
+
+## Mapping Crime and Response
+
+<p>
+The presence of prostitution in these districts and the strategies employed to address it reflect the broader challenges of urban crime and social justice. Balancing enforcement with support for vulnerable populations is a critical aspect of the response in San Francisco, with initiatives aimed at reducing demand for prostitution, providing exit pathways for those involved, and addressing the underlying social determinants.
+These dynamics underscore the importance of a nuanced understanding of urban crime, one that recognizes the interplay of socio-economic factors, community resilience, and the need for comprehensive approaches to public safety and social well-being.
+</p>
 
 
 
