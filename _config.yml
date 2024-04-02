@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Prostitution Cases in San Francisco
+email: afonsomartinscunha@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Dive into the heart of San Francisco's approach to tackling prostitution, exploring the decline in cases thanks to legislative changes and innovative programs.
+  Our interactive map and analysis shed light on how districts like Tenderloin, Mission, Northern, and Central are navigating these challenges, revealing the impact of community and law enforcement strategies on urban crime dynamics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://afonsocunha22.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  AfonsoCunha22
 
 # Build settings
 theme: minima
