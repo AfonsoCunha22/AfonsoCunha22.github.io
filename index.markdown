@@ -16,6 +16,8 @@ Why did prostitution reached its peak in 2008 and what influences the San Franci
 Figure 1. Prostitution cirme rate in San Fransisco year 2004-2013 
 </em>
 
+
+
 ## Why this peak? 
 <p>
 The year 2008 is a year that was heavily influenced by the economic recession triggered by the U.S. housing market collapse and systemic failures in governmental regulatory. This event led to staggering job losses, lower GDP figures, and financial instability many people. Governments worldwide implemented strategies to stabilize economies, yet the road to recovery proved though, spanning several years.  During periods of high unemployment rates, individuals often find themselves suffering with economic uncertainty, potentially leading some to resort to criminal activities as a means of financial income. The economic recession offers a plausible explanation for the peak in prostitution crime rate observed in 2008, with a gradual decline following as the economy stabilized during the recovery phase spanning from 2010 to 2013.  The significance of this recovery phase is discussed in the article "San Francisco's Economic Recovery: 2010-2013" published by Spur The Urbanist in 2014. The article highlights a great increase in employment figures, with the city witnessing the addition of 70,000 jobs during this period. 
@@ -26,8 +28,6 @@ Looking at San Francisco, various factors and changes in law enforcement and pub
 
 
 ## What day is prostitution related crimes committed?
-
-
 <p>
 To better comprehend the nature of prostitution-related crimes, let's investigate the weekday distribution of incidents. 
 </p>
