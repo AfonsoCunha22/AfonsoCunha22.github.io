@@ -4,14 +4,16 @@
 
 layout: home
 ---
-
-# San Francisco reaches peak in prostitution crime rate in 2008	
+<h1> Prostitution in San Francisco </h1>
+## Prostitution rates (2003 - 2013)
 
 <p>
 Why did prostitution reached its peak in 2008 and what influences the San Francisco prostitution crime rate? To answer this question, we look into data collected by the San Francisco Police Department spanning from 2004 to 2013. This dataset displays various crime categories, each logged with timestamps and geographical coordinates.  Focusing specifically on the prostitution category within the years 2004 to 2013, intriguing trends can be witnessed. It appears that the incidents of prostitution-related crimes increased in 2007 and 2008, only to steadily decline thereafter. By 2012, the data reveals the lowest recorded rate of such offenses over the preceding decade.  In this exploration, we aim to overview the patterns of prostitution crimes, shedding light on shifts in societal behaviors and law enforcement efforts over the examined timeframe. 
 </p>
 
-![image broken :(](/assets/10y_prostitution.png) 
+![image broken :(](/assets/10y_prostitution.png)
+
+
 <em> 
 Figure 1. Prostitution cirme rate in San Fransisco year 2004-2013 
 </em>
@@ -87,5 +89,10 @@ The presence of prostitution in these districts and the strategies employed to a
 These dynamics underscore the importance of a nuanced understanding of urban crime, one that recognizes the interplay of socio-economic factors, community resilience, and the need for comprehensive approaches to public safety and social well-being.
 </p>
 
+
+<p>
+The presence of prostitution in these districts and the strategies employed to address it reflect the broader challenges of urban crime and social justice. Balancing enforcement with support for vulnerable populations is a critical aspect of the response in San Francisco, with initiatives aimed at reducing demand for prostitution, providing exit pathways for those involved, and addressing the underlying social determinants.
+These dynamics underscore the importance of a nuanced understanding of urban crime, one that recognizes the interplay of socio-economic factors, community resilience, and the need for comprehensive approaches to public safety and social well-being.
+</p>
 
 
