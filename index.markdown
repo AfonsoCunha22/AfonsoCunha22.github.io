@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+list_title: ' '
 ---
 <h1> Prostitution in San Francisco </h1>
 ## Prostitution rates (2003 - 2013)
