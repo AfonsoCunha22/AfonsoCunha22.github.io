@@ -28,7 +28,7 @@ url: "https://afonsocunha22.github.io/" # the base hostname & protocol for your 
 github_username:  AfonsoCunha22
 
 # Build settings
-theme: minima
+theme: daattali/beautiful-jekyll
 plugins:
   - jekyll-feed
 
