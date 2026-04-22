@@ -3,190 +3,393 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Afonso Cunha | AI, Data & Software Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio and CV of Afonso Cunha, an AI and data practitioner with a software engineering background focused on human-centered AI, analytics, and machine learning."
+  >
+  <meta name="theme-color" content="#0e1a2b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <h1 class="header-title">Afonso Cunha</h1>
-      <nav class="header-nav">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#work-experience">Experience</a>
-        <a href="#education-background">Education</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h2>Afonso Martins dos Reis Filipe Cunha</h2>
-      <p>From Software Development to Data Science</p>
-      <a href="#projects" class="cta-button">See My Work</a>
-    </div>
-  </section>
-
-  <!-- About Me Section -->
-  <section class="about" id="about">
-    <div class="container">
-      <img src="assets/profile.png" alt="Your Photo" class="profile-pic">
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>Keen to learn student with an MSc in Human-Centered AI underway at the Technical University of Denmark, complementing a
-            solid foundation in Computer Science from the Polytechnic Institute of Setúbal. As a BI Analyst and Data Analytics Trainee at SDG
-            Group, I excelled in international projects, particularly in the medical field. Experienced in teaching Object-Oriented Programming
-            and actively engaging in extracurriculars, I try to bring a unique blend of technical expertise and a human-centered approach. Also
-            engaging in other extracurricular hobbies such as music and volleyball.</p>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top">Afonso Cunha</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#credentials">Credentials</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
-    </div>
-  </section>
-  <hr class="section-divider">
-  <!-- Projects Section -->
-  <section class="projects" id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Project RAD</h3>
-          <p class="small-gray-text">Tools: Angular, Javascript, HTML, CSS</p>
-          <p>This project consists on inovating and transitioning from an Excel based process to a more linear, simpler and automized approach of the existing process regarding professor category and salary review system for Instituto Politécnico de Setúbal. Until that time, the entire process was done manually and was highly exhausting both for reviewers and professor.</p>
-          <div class="card-footer">
-            <a href="https://github.com/AfonsoCunha22/ComputationalToolsProject" target="_blank" class="project-link"></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-backdrop"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Portfolio / CV</p>
+            <h1>A software engineer turned AI and data specialist with a human-centered lens.</h1>
+            <p class="hero-summary">
+              I build analytical products, machine learning workflows, and decision-support tools
+              that are technically solid and easy for people to use. My background combines
+              software engineering, BI delivery, and ongoing graduate work in Human-Centered AI.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">Explore selected work</a>
+              <a class="button button-secondary" href="mailto:afonsomartinscunha@gmail.com">Contact me</a>
+            </div>
+            <ul class="hero-highlights" aria-label="Professional highlights">
+              <li>Based in Portugal with academic work in Denmark</li>
+              <li>Focus areas: analytics, machine learning, data products</li>
+              <li>Interested in high-impact, human-centered technical work</li>
+            </ul>
+          </div>
+
+          <aside class="hero-card">
+            <div class="hero-card-top">
+              <img src="assets/profile.png" alt="Portrait of Afonso Cunha" class="profile-image">
+              <div>
+                <p class="card-label">Current direction</p>
+                <h2>Human-Centered AI</h2>
+              </div>
+            </div>
+            <div class="signal-list">
+              <div class="signal-item">
+                <span class="signal-kicker">Background</span>
+                <strong>Computer Science and Software Engineering</strong>
+              </div>
+              <div class="signal-item">
+                <span class="signal-kicker">Industry</span>
+                <strong>BI, analytics, data warehousing, ML research</strong>
+              </div>
+              <div class="signal-item">
+                <span class="signal-kicker">Strength</span>
+                <strong>Bridging technical delivery with real user needs</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Technical depth with a practical, interdisciplinary mindset.</h2>
+          </div>
+          <div class="section-body">
+            <p>
+              I am currently completing an MSc in Human-Centered AI at the Technical University of
+              Denmark after building my foundation in Computer Science at the Polytechnic Institute
+              of Setubal. That path shaped how I approach technical work: start with the problem,
+              understand the people affected by it, then build the system with rigor.
+            </p>
+            <p>
+              Professionally, I have worked in BI and analytics delivery, contributed to data-driven
+              projects in the medical domain, and taught introductory object-oriented programming.
+              Outside formal work, I also stay active through music and volleyball, which continue to
+              sharpen my discipline, collaboration, and communication.
+            </p>
           </div>
         </div>
-        <div class="card">
-          <h3>Food Bank Analysis - Copenhagen Region</h3>
-          <p class="small-gray-text">Tools: Python, Clustering, Apriori, Scrapping</p>
-          <p>This project tackles food waste by creating a data-driven food bank system using
-            surplus food from stores. Data from the Salling Group API, including store locations
-            and items nearing expiration, served as the foundation. The Anti-Food Waste API pro-
-            vided daily updates on surplus items . A constrained agglomerative clustering algorithm
-            grouped stores by proximity, assigning each cluster a food bank location. Recipes scraped
-            from online sources were structured and matched to surplus items for practical utilization.
-            By combining clustering, recipe analysis, and surplus data, the project offers a scalable
-            solution to reduce food waste and support community welfare.</p>
-          <div class="card-footer">
-            <a href="https://github.com/AfonsoCunha22/ComputationalToolsProject" target="_blank" class="project-link">View Project</a>
+      </section>
+
+      <section class="section section-tinted" id="experience">
+        <div class="container">
+          <div class="section-grid section-grid-tight">
+            <div class="section-heading">
+              <p class="eyebrow">Experience</p>
+              <h2>From analytics delivery to teaching and applied problem-solving.</h2>
+            </div>
+            <div class="section-body">
+              <div class="timeline">
+                <article class="timeline-item">
+                  <div class="timeline-meta">
+                    <span>May 2022 - May 2023</span>
+                    <span>Lisbon, Portugal</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>BI Analyst - SDG Group</h3>
+                    <p>
+                      Worked with international teams on large-scale data projects, including work in
+                      the medical sector. Built exposure to enterprise data practices and strengthened
+                      my ability to deliver analytics solutions in a structured consulting environment.
+                    </p>
+                    <p class="tag-row">
+                      <span>Snowflake</span>
+                      <span>dbt</span>
+                      <span>Analytics delivery</span>
+                    </p>
+                  </div>
+                </article>
+
+                <article class="timeline-item">
+                  <div class="timeline-meta">
+                    <span>Dec 2021 - Feb 2022</span>
+                    <span>Setubal, Portugal</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Teaching Assistant - Polytechnic Institute of Setubal</h3>
+                    <p>
+                      Supported an introductory object-oriented programming course in Java, helping
+                      students grasp core concepts while strengthening my own communication and teaching
+                      skills in a technical classroom setting.
+                    </p>
+                    <p class="tag-row">
+                      <span>Java</span>
+                      <span>OOP fundamentals</span>
+                      <span>Mentoring</span>
+                    </p>
+                  </div>
+                </article>
+
+                <article class="timeline-item">
+                  <div class="timeline-meta">
+                    <span>Jul 2021 - Oct 2021</span>
+                    <span>Maia, Portugal</span>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Data Analytics Trainee - Korber Supply Chain</h3>
+                    <p>
+                      Contributed to warehouse optimization work during my internship, applying academic
+                      knowledge in a real operational environment and gaining firsthand experience with
+                      analytics in supply chain contexts.
+                    </p>
+                    <p class="tag-row">
+                      <span>Analytics</span>
+                      <span>Optimization</span>
+                      <span>Operational data</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <h3>Real vs Fake Discriminator</h3>
-          <p class="small-gray-text">Tools: CNN, ViT, DIRE, Fine-Tuning</p>
-          <p>This project focuses on detecting hyper-realistic synthetic images, such as deepfakes, using frequency domain analysis and various machine learning models. By analyzing frequency patterns in a custom dataset of real and synthetic images, three models were evaluated: DIRE, a custom-built CNN, and a fine-tuned vision transformer (ViT). The results demonstrate the potential of combining spectral analysis with advanced machine learning models to enhance synthetic image detection and ensure media authenticity.</p>
-          <div class="card-footer">
-            <a href="https://github.com/AfonsoCunha22/ComputationalToolsProject" target="_blank" class="project-link">View Project</a>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-grid section-grid-tight">
+            <div class="section-heading">
+              <p class="eyebrow">Selected Projects</p>
+              <h2>Projects that reflect where engineering, data, and usability meet.</h2>
+            </div>
+            <div class="section-body project-grid">
+              <article class="project-card project-card-featured">
+                <div class="project-header">
+                  <p class="project-type">Process automation / web application</p>
+                  <h3>Project RAD</h3>
+                </div>
+                <p>
+                  Redesigned a professor category and salary review workflow by moving it away from a
+                  heavily manual Excel process into a more structured and maintainable web-based flow.
+                  The value was not only technical modernization, but also reducing friction for the
+                  people responsible for running the process.
+                </p>
+                <p class="tag-row">
+                  <span>Angular</span>
+                  <span>JavaScript</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </p>
+              </article>
+
+              <article class="project-card">
+                <div class="project-header">
+                  <p class="project-type">Data science / social impact</p>
+                  <h3>Food Bank Analysis for the Copenhagen Region</h3>
+                </div>
+                <p>
+                  Built a concept for a data-informed food bank network using store surplus data,
+                  clustering, and recipe matching. The project combined location intelligence,
+                  practical constraints, and data preparation to address food waste with an applied,
+                  community-oriented perspective.
+                </p>
+                <p class="tag-row">
+                  <span>Python</span>
+                  <span>Clustering</span>
+                  <span>Apriori</span>
+                  <span>Web scraping</span>
+                </p>
+                <div class="project-actions">
+                  <a href="https://github.com/AfonsoCunha22/ComputationalToolsProject" target="_blank" rel="noreferrer">Source</a>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-header">
+                  <p class="project-type">Machine learning / synthetic media detection</p>
+                  <h3>Real vs Fake Discriminator</h3>
+                </div>
+                <p>
+                  Explored synthetic image detection through frequency-domain analysis and evaluated
+                  multiple model families, including a custom CNN, DIRE, and a fine-tuned vision
+                  transformer. The work focused on model comparison and practical signals for detecting
+                  increasingly realistic generated imagery.
+                </p>
+                <p class="tag-row">
+                  <span>CNN</span>
+                  <span>Vision Transformer</span>
+                  <span>Fine-tuning</span>
+                  <span>Frequency analysis</span>
+                </p>
+                <div class="project-actions">
+                  <a href="https://github.com/AfonsoCunha22/ComputationalToolsProject" target="_blank" rel="noreferrer">Source</a>
+                </div>
+              </article>
+
+              <article class="project-card project-card-placeholder">
+                <div class="project-header">
+                  <p class="project-type">Research project</p>
+                  <h3>Decoding the Click</h3>
+                </div>
+                <p>
+                  Add your final project summary here. This slot is now ready for the Decoding the
+                  Click project and already points to the paper PDF.
+                </p>
+                <p class="tag-row">
+                  <span>Research</span>
+                  <span>Analysis</span>
+                  <span>PDF paper</span>
+                </p>
+                <div class="project-actions">
+                  <a href="assets/files/Thesis___AfonsoCunha.pdf" download>Paper</a>
+                </div>
+              </article>
+
+              <article class="project-card project-card-placeholder">
+                <div class="project-header">
+                  <p class="project-type">New flagship project</p>
+                  <h3>Project title</h3>
+                </div>
+                <p>
+                  Add a concise description here explaining the problem, what you built, and why this
+                  project matters.
+                </p>
+                <p class="tag-row">
+                  <span>Tech 1</span>
+                  <span>Tech 2</span>
+                  <span>Tech 3</span>
+                </p>
+                <div class="project-actions">
+                  <a href="#">Add link</a>
+                </div>
+              </article>
+
+              <article class="project-card project-card-placeholder">
+                <div class="project-header">
+                  <p class="project-type">New flagship project</p>
+                  <h3>Project title</h3>
+                </div>
+                <p>
+                  Add a concise description here explaining the problem, what you built, and why this
+                  project matters.
+                </p>
+                <p class="tag-row">
+                  <span>Tech 1</span>
+                  <span>Tech 2</span>
+                  <span>Tech 3</span>
+                </p>
+                <div class="project-actions">
+                  <a href="#">Add link</a>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <hr class="section-divider">
+      </section>
 
-  <!-- Work Experience Section -->
-<section class="work-experience" id="work-experience">
-    <div class="container">
-      <h2>Work Experience</h2>
-      <div class="grid">
-        <div class="card">
-          <p><strong>BI Analyst</strong><br>
-          <span class="small-gray-text">SDG PT, Lisbon, PT</span><br>
-          <span class="small-gray-text">May 2022 - May 2023</span><br>
-          During my tenure at SDG Group, I had the opportunity to collaborate with international teams on a large scale project involving companies in the medical field. This experience significantly broadened my perspective and skills in managing complex, global projects. I was able to, for the first time, understand the true scope of a data science service providing company, gaining insights into how such organizations operate on a global scale. I also learned new tools and paradigms, such as Snowflake and dbt, which enhanced my ability to work with data in a dynamic environment and contribute effectively to project outcomes.</p>
-        </div>
-        
-        <div class="card">
-          <p><strong>Teacher Assistant</strong><br>
-          <span class="small-gray-text">Instituto Politécnico de Setúbal, Setúbal, PT</span><br>
-          <span class="small-gray-text">Dec 2021 - Feb 2022</span><br>
-          I served as a Teaching Assistant for an Introduction to Object-Oriented Programming course, where Java was the primary programming language. This role allowed me to assist students with their understanding of key programming concepts while further enhancing my own knowledge of computer science. Working closely with both students and the lead instructor, I developed strong teaching and communication skills and provided individualized support to help students succeed. It was a rewarding experience to facilitate learning and introduce students to the fundamentals of programming.</p>
-        </div>
-        
-        <div class="card">
-          <p><strong>Data Analytics Trainee Internship</strong><br>
-          <span class="small-gray-text">Korber Supply Chain PT, Maia, PT</span><br>
-          <span class="small-gray-text">Jul 2021 - Oct 2021</span><br>
-          At KSC PT, I had the opportunity to work on an exciting project focused on warehouse optimization. This experience allowed me to explore a new area that I was eager to learn about as a student, marking a fulfilling end to my bachelor's education. I was exposed to unfamiliar but intriguing tools and paradigms, while also applying the knowledge I gained from my studies at the Polytechnic Institute of Setúbal.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <hr class="section-divider">
- <!-- Education and Background Section -->
-<section class="education-background" id="education-background">
-    <div class="container">
-      <h2>Education and Background</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Education</h3>
-          <p><strong>Master Degree</strong><br>
-          Human-Centered AI, Denmark Technical University, Copenhagen, DK<br>
-          <span class="small-gray-text"> Sep 2023 - May 2026</span></p>
-          
-          <p><strong>Bachelor Degree</strong><br>
-          Computer Science (Software Engineer Branch), Instituto Politécnico de Setúbal, Setúbal, PT<br>
-          <span class="small-gray-text"> Sep 2018 - Oct 2021</span></p>
-          
-          <p><strong>Summer Courses - Junior University</strong><br>
-          Universidade do Porto, Porto, PT<br>
-          <span class="small-gray-text"> 2016 and 2017</span></p>
-        </div>
-        
-        <div class="card">
-          <h3>Licenses and Certifications</h3>
-          <p><strong>Hands On Essentials - Data Warehouse</strong><br>
-          Snowflake - Issued June 2022</p>
-          
-          <p><strong>dbt Fundamentals</strong><br>
-          dbt Labs - Issued June 2022</p>
-          
-          <p><strong>IELTS Academic Test - 8</strong><br>
-          IELTS - Issued March 2022</p>
-          
-          <p><strong>Data Science in R</strong><br>
-          GADES Solutions - Issued Feb 2022</p>
-        </div>
-        
-        <div class="card">
-          <h3>Skills and Languages</h3>
-          <p><strong>Skills</strong><br>
-          Python<br>
-          Java<br>
-          SQL<br>
-          Machine Learning<br>
-          Deep Learning<br>
-          Data Science</p>
-          <p><strong>Languages</strong><br>
-          Portuguese - Native<br>
-          English - Fluent<br>
-          Spanish - Basic</p>
-        </div>
-        
-        <div class="card">
-          <h3>Volunteer Experiences</h3>
-          Audience Management, Indie X - November 2019<br>
-          Audience Management, Marginal Voluntariado - November 2018<br>
-          Volleyball Coaching, KSV- Københavns Studenter Volley - August 2024 - May 2025</p>
-        </div>
-      </div>
-    </div>
-  </section>
+      <section class="section section-tinted" id="credentials">
+        <div class="container credentials-grid">
+          <article class="credential-card">
+            <p class="eyebrow">Education</p>
+            <h3>Formal training</h3>
+            <ul class="detail-list">
+              <li>
+                <strong>MSc in Human-Centered AI</strong><br>
+                Technical University of Denmark, Copenhagen<br>
+                Ongoing
+              </li>
+              <li>
+                <strong>BSc in Computer Science, Software Engineering branch</strong><br>
+                Polytechnic Institute of Setubal
+              </li>
+              <li>
+                <strong>Junior University summer courses</strong><br>
+                University of Porto
+              </li>
+            </ul>
+          </article>
 
-  <!-- Footer -->
-  <footer class="footer" id="contact">
-    <div class="container">
-      <p>Connect with me:</p>
-      <div class="social-links">
-        <a href="https://github.com/AfonsoCunha22" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-        <a href="afonsomartinscunha@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-        <a href="https://www.instagram.com/afonso_martinscunha/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-        <a href="https://x.com/thismanisfucked" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
-        <a href="https://www.facebook.com/AaMCunha/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
-      </div>
-    </div>
-  </footer>
+          <article class="credential-card">
+            <p class="eyebrow">Certifications</p>
+            <h3>Relevant credentials</h3>
+            <ul class="detail-list">
+              <li>Snowflake Hands On Essentials - Data Warehouse</li>
+              <li>dbt Fundamentals</li>
+              <li>IELTS Academic Test - Band 8</li>
+              <li>Data Science in R</li>
+            </ul>
+          </article>
+
+          <article class="credential-card">
+            <p class="eyebrow">Skills</p>
+            <h3>Technical toolkit</h3>
+            <ul class="pill-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>Machine Learning</li>
+              <li>Deep Learning</li>
+              <li>Analytics Engineering</li>
+              <li>Data Science</li>
+              <li>BI Workflows</li>
+            </ul>
+          </article>
+
+          <article class="credential-card">
+            <p class="eyebrow">Languages & service</p>
+            <h3>Additional context</h3>
+            <ul class="detail-list">
+              <li>Portuguese - Native</li>
+              <li>English - Fluent</li>
+              <li>Spanish - Basic</li>
+              <li>Volunteer work in event audience management and volleyball coaching</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Open to thoughtful work in AI, data, and software.</h2>
+            <p>
+              If you are hiring, collaborating, or building something where analytical rigor and
+              human-centered design both matter, I would be glad to talk.
+            </p>
+          </div>
+          <div class="contact-links" aria-label="Contact links">
+            <a href="mailto:afonsomartinscunha@gmail.com">afonsomartinscunha@gmail.com</a>
+            <a href="https://github.com/AfonsoCunha22" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://afonsocunha22.github.io" target="_blank" rel="noreferrer">Website</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
+

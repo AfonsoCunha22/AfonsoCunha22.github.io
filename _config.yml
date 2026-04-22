@@ -21,7 +21,7 @@ title                    : "Afonso Cunha"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Afonso Cunha"
-description              : "From Software Engineer to Data Scientist"
+description              : "Portfolio and CV of Afonso Cunha, focused on AI, data, and software engineering."
 url                      : "https://AfonsoCunha22.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,45 +115,29 @@ analytics:
 author:
   name             : "Afonso Martins dos Reis Filipe Cunha"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a AI student focused on Data Science and Machine Learning with a background in Software Engineering and Music."
-  location         : "Setúbal, Portugal"
+  bio              : "AI and data practitioner with a software engineering background, currently studying Human-Centered AI."
+  location         : "Setubal, Portugal"
   email            :  "afonsomartinscunha@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "afonsomartinscunha@gmail.com"
+      url: "mailto:afonsomartinscunha@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://afonsocunha22.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/thismanisfucked"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/AaMCunha"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AfonsoCunha22"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/afonso_martinscunha/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/thismanisfucked"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/AaMCunha"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:afonsomartinscunha@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AfonsoCunha22"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/afonso_martinscunha/"
-
 
 # Reading Files
 include:
@@ -225,7 +209,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+paginate: # amount of posts to show
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
