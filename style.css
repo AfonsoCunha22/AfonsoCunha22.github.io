@@ -130,8 +130,7 @@ a {
 
 .hero-backdrop {
   position: absolute;
-  inset: 2.5rem 0 auto;
-  height: 35rem;
+  inset: 0;
   background:
     linear-gradient(135deg, rgba(16, 33, 51, 0.92), rgba(23, 47, 73, 0.8)),
     url("assets/image.png") center/cover;
@@ -584,10 +583,6 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .hero-backdrop {
-    height: 41rem;
-  }
-
   .hero-card {
     max-width: 32rem;
   }
@@ -636,8 +631,6 @@ a {
   }
 
   .hero-backdrop {
-    inset: 0 0 auto;
-    height: 46rem;
     border-radius: 0 0 2rem 2rem;
   }
 
