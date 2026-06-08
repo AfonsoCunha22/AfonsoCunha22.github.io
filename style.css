@@ -190,7 +190,7 @@ a {
   max-width: 42rem;
   margin: 1.5rem 0 0;
   font-size: 1.08rem;
-  color: rgba(24, 36, 51, 0.78);
+  color: rgba(255, 250, 244, 0.9);
 }
 
 .hero-actions {
@@ -246,7 +246,7 @@ a {
   margin: 2rem 0 0;
   padding: 0;
   list-style: none;
-  color: rgba(24, 36, 51, 0.74);
+  color: rgba(255, 250, 244, 0.86);
 }
 
 .hero-highlights li {
